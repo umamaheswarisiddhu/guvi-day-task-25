@@ -1,5 +1,5 @@
 function data(){
-    fetch("http://api.icndb.com/jokes/").then(response=>{
+    fetch("https://api.icndb.com/jokes/").then(response=>{
         if (!response.ok){
             throw Error("error")
         }
